@@ -7,6 +7,8 @@ routes
   .add('articles', '/articles', 'articles')
   .add('replies', '/replies', 'replies')
   .add('users', '/users', 'users')
+  .add('about')
+  .add('policy')
   // routes.add({name: 'name', pattern: '/name', page: 'name'})
   .add({
     name: 'article',
